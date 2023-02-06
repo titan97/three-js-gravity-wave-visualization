@@ -17,7 +17,7 @@
 ## About The Project
 
 This project was inspired by this post by Jeff Bryant on Wolfram Alpha coummunity ([gravity wave post](https://community.wolfram.com/groups/-/m/t/790989))
-The idea was to use and modify the wave formula with threejs and javascript for a more immersive browser experience of the simulated gravity wave.
+The idea was to use and modify the wave formula with threejs and javascript for a more immersive browser experience of the simulated gravity wave. The implementation involves a large 2d array of 3 dimensional points on a flat plane and the wave animation is just calculating where each point should be at some time step, t according to the equation model.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,9 +66,11 @@ The idea was to use and modify the wave formula with threejs and javascript for 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The main part of this model involves the following equation, where z is equal to:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+![](https://github.com/titan97/three-js-gravity-wave-visualization/blob/main/gravitywave_modelequation.png)
+
+160 is the initially set amplitude of the waves which can be adjusted as well as count and the other scalar values. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
