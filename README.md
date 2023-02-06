@@ -1,5 +1,7 @@
 <!-- PROJECT LOGO -->
-
+<p align="center">
+  <img src="gravitywave.gif" alt="animated" />
+</p>
 
 <h3 align="center">Gravity Wave Visualization</h3>
 
