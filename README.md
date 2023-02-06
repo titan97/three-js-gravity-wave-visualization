@@ -1,12 +1,6 @@
 <!-- PROJECT LOGO -->
 
 
-<br />
-<div align="center">
-  <a href="https://github.com/titan97/three-js-gravity-wave-visualization">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
 <h3 align="center">Gravity Wave Visualization</h3>
 
   <p align="center">
@@ -19,8 +13,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This project was inspired by this post by Jeff Bryant on Wolfram Alpha coummunity ([gravity wave post](https://community.wolfram.com/groups/-/m/t/790989))
 The idea was to use and modify the wave formula with threejs and javascript for a more immersive browser experience of the simulated gravity wave.
